@@ -1,10 +1,5 @@
 language: bash
 os: linux
-arch:
-  - amd64
-  - arm64
-  - ppc64le
-  - s390x
 
 services: docker
 sudo: required
