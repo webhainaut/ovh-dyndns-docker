@@ -22,10 +22,10 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repos
         ca-certificates \
     && mkdir -p /srv/dyndns
 
-COPY config /srv/dyndns/cmd.sh
-COPY config /srv/dyndns/entrypoint.sh
-COPY config /srv/dyndns/dynhost
-COPY config /etc/cron.d/dynhost
+COPY config/cmd.sh /srv/dyndns/cmd.sh
+COPY config/entrypoint.sh /srv/dyndns/entrypoint.sh
+COPY config/dynhost.sh /srv/dyndns/dynhost
+COPY config/cronjob.txt /etc/cron.d/dynhost
 
 RUN chmod +x /srv/dyndns/dynhost \
     && chmod +x /srv/dyndns/entrypoint.sh \
