@@ -1,6 +1,7 @@
 # DynDNS update script for OVH domains
 
 ![Build image](https://github.com/webhainaut/ovh-dyndns-docker/workflows/Build%20ovh-dyndns%20image/badge.svg)
+[![Build Status](https://travis-ci.com/webhainaut/ovh-dyndns-docker.svg?branch=master)](https://travis-ci.com/webhainaut/ovh-dyndns-docker)
 
 this is based on *ovh-dyndns* from [Ambroisemaupate work](https://github.com/ambroisemaupate/Docker).
 
