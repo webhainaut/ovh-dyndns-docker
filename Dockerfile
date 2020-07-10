@@ -1,4 +1,4 @@
-ARG ARCH=amd64/
+ARG ARCH=
 FROM ${ARCH}alpine:latest
 MAINTAINER webhainaut <jerome@webhainaut.be>
 
